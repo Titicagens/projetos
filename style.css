@@ -1,0 +1,31 @@
+/*Esse é o cabeçalho do site*/
+body{
+    margin: 0;
+}
+/*style do título do site*/
+h1{
+    margin: 0;
+}
+/*Esse é o cabeçalho do site*/
+header{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between; /*só funciona com display flex*/
+    padding: 10px;
+}
+
+#box-categorias button{
+    background-color: chartreuse;
+    border: 0;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#box-ordenar button{
+    background-color: chartreuse;
+    border: 0;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
